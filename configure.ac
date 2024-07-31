@@ -16,6 +16,8 @@ AC_PREREQ([2.71])
 
 AC_INIT([python],[PYTHON_VERSION],[https://github.com/python/cpython/issues/])
 
+m4_pattern_allow([AC_MSG_ERROR])
+
 m4_ifdef(
     [AX_C_FLOAT_WORDS_BIGENDIAN],
     [],
