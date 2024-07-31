@@ -1933,6 +1933,7 @@
 /* Define to `int' if <sys/types.h> doesn't define. */
 #undef uid_t
 
+#undef Py_NO_MULTIPROCESSING
 
 /* Define the macros needed if on a UnixWare 7.x system. */
 #if defined(__USLC__) && defined(__SCO_VERSION__)
