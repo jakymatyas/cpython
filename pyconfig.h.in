@@ -1577,6 +1577,8 @@
 /* Define if pthread_key_t is compatible with int. */
 #undef PTHREAD_KEY_T_IS_COMPATIBLE_WITH_INT
 
+#define Py_NO_MULTIPROCESSING
+
 /* Defined if PTHREAD_SCOPE_SYSTEM supported. */
 #undef PTHREAD_SYSTEM_SCHED_SUPPORTED
 
