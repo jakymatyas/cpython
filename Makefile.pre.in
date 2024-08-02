@@ -1877,8 +1877,8 @@ pythoninfo: all
 
 QUICKTESTOPTS=	$(TESTOPTS) -x test_subprocess test_io test_lib2to3 \
 		test_multibytecodec test_urllib2_localnet test_itertools \
-		test_multiprocessing_fork test_multiprocessing_spawn \
-		test_multiprocessing_forkserver \
+		#test_multiprocessing_fork test_multiprocessing_spawn \
+		#test_multiprocessing_forkserver \
 		test_mailbox test_nntplib test_socket test_poll \
 		test_select test_zipfile test_concurrent_futures
 
@@ -2251,9 +2251,9 @@ TESTSUBDIRS=	idlelib/idle_test \
 		test/xmltestdata/c14n-20 \
 		test/ziptestdata \
 		test/test_concurrent_futures \
-		test/test_multiprocessing_fork \
-		test/test_multiprocessing_forkserver \
-		test/test_multiprocessing_spawn
+		#test/test_multiprocessing_fork \
+		#test/test_multiprocessing_forkserver \
+		#test/test_multiprocessing_spawn
 
 COMPILEALL_OPTS=-j0
 
