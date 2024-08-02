@@ -298,6 +298,7 @@ PYTHONPATH=$(COREPYTHONPATH)
 # are not built (see above for more detail).
 #
 *disabled*
+
 _multiprocessing
 #
 # _sqlite3 _tkinter _curses pyexpat

@@ -2101,7 +2101,7 @@ LIBSUBDIRS=	asyncio \
 		json \
 		lib2to3 lib2to3/fixes lib2to3/pgen2 \
 		logging \
-		multiprocessing multiprocessing/dummy \
+		#multiprocessing multiprocessing/dummy \
 		pydoc_data \
 		re \
 		site-packages \
