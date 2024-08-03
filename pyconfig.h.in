@@ -387,13 +387,13 @@
 #undef HAVE_FLOCK
 
 /* Define to 1 if you have the `fork' function. */
-//#undef HAVE_FORK
+#undef HAVE_FORK
 
 /* Define to 1 if you have the `fork1' function. */
-//#undef HAVE_FORK1
+#undef HAVE_FORK1
 
 /* Define to 1 if you have the `forkpty' function. */
-//#undef HAVE_FORKPTY
+#undef HAVE_FORKPTY
 
 /* Define to 1 if you have the `fpathconf' function. */
 #undef HAVE_FPATHCONF

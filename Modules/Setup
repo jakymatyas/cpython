@@ -300,7 +300,7 @@ PYTHONPATH=$(COREPYTHONPATH)
 *disabled*
 
 _multiprocessing
-_posixsubprocess
+_posixsubprocess _posixsubprocess.c
 #
 # _sqlite3 _tkinter _curses pyexpat
 # _codecs_jp _codecs_kr _codecs_tw unicodedata
