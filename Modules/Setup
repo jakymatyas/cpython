@@ -301,6 +301,8 @@ PYTHONPATH=$(COREPYTHONPATH)
 
 _multiprocessing
 _posixsubprocess _posixsubprocess.c
+_posixshmem -I$(srcdir)/Modules/_multiprocessing _multiprocessing/posixshmem.c -lrt
+_multiprocessing -I$(srcdir)/Modules/_multiprocessing _multiprocessing/multiprocessing.c _multiprocessing/semaphore.c
 #
 # _sqlite3 _tkinter _curses pyexpat
 # _codecs_jp _codecs_kr _codecs_tw unicodedata
